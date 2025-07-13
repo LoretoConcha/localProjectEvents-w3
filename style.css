@@ -1,11 +1,7 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-#gallery{
+#gallery {
     max-width: 700px;
     height: 522px;
 }
-/* adapta las imagenes al espacio si las cambio */
-/* src="http://picsum.photos/id/900/600/600" */
 
 #gallery #viewer img {
     width: 100%;
@@ -20,20 +16,21 @@
     object-fit: cover;
     object-position: center center;
     filter: grayscale(1);
-    cursor:pointer;
+    cursor: pointer; 
 }
+
 #gallery #list img:hover {
-    filter: grayscale(0);
+    filter: grayscale(0); 
 }
 
-@media screen and ( max-width: 600px){
-    #gallery{
-    height: 338px;
-}
+@media screen and (max-width: 600px) {
+    #gallery {
+        height: 338px;
+    }
 }
 
-@media screen and ( min-width: 768px) and (max-width: 968px){
-    #gallery{
-    height: 430px;
-}
+@media screen and (min-width: 768px) and (max-width: 968px) {
+    #gallery {
+        height: 430px;
+    }
 }
